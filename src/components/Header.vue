@@ -36,14 +36,14 @@
           </a>
           <ul class="dropdown-menu">
             <li>
-              <RouterLink class="dropdown-item" to="/perrosView">
+              <RouterLink class="dropdown-item" to="/alimentoPerroView">
                 Perros</RouterLink>
             </li>
             <li>
               <hr class="dropdown-divider">
             </li>
             <li>
-              <RouterLink class="dropdown-item" to="/gatosView">Gatos</RouterLink>
+              <RouterLink class="dropdown-item" to="/alimentoGatoView">Gatos</RouterLink>
             </li>
           </ul>
         </li>
@@ -60,22 +60,24 @@
               <hr class="dropdown-divider">
             </li>
             <li>
-              <RouterLink class="dropdown-item" to="/zeeCarView">Zee.Car</RouterLink>
+              <RouterLink class="dropdown-item" to="/zeeCatView">Zee.Cat</RouterLink>
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/juguetesView">Juguetes</RouterLink>
+          <RouterLink class="nav-link" to="/arenasView">Arenas</RouterLink>
         </li>
-        <!-- <li class="nav-item"> -->
+
         <li class="nav-item">
           <RouterLink class="nav-link" to="/snacksView">Snacks</RouterLink>
         </li>
-        <!-- <li class="nav-item"> -->
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/accesoriosView">Accesorios</RouterLink>
+          <RouterLink class="nav-link" to="/juguetesView">Juguetes</RouterLink>
         </li>
-        <!-- <li class="nav-item"> -->
+        <!-- <li class="nav-item">
+          <RouterLink class="nav-link" to="/accesoriosView">Accesorios</RouterLink>
+        </li> -->
+
         <li class="nav-item">
           <RouterLink class="nav-link" to="/nosotrosView">Sobre Nosotros</RouterLink>
         </li>

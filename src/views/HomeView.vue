@@ -1,9 +1,7 @@
 <template>
   <main class="container my-4">
     <HeroBanner />
-
     <h2 id="destacados" class="mb-4">Productos Destacados</h2>
-
     <DestacadosCarusel />
   </main>
 </template>
