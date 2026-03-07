@@ -6,12 +6,10 @@
   </div>
   <div v-else>
     <div class="container">
-      <div class="row">
-        <div class="col-md-3 mb-3" v-for="producto in productos" :key="producto.id" :id="producto.id">
-          <CardProductos :nombreProducto="producto.nombreProducto" :precio="producto.precio" :sabor="producto.sabor"
-            :img="producto.img" />
+      <div class="row" v-if="productos.length > 0">
+        <div class="col-md-3 mb-3" v-for="producto in productos" :key="producto.id">
+          <CardProductos :producto="producto" />
         </div>
-
       </div>
     </div>
   </div>
@@ -20,7 +18,7 @@
 
 <script>
 import CardProductos from '../components/alimento/CardProductos.vue'
-import { recorridoJuguetes } from '../assets/js/recorrido.js'
+import { obtenerProductosPorCategoria } from '../assets/js/recorrido.js'
 
 export default {
   name: 'JuguetesView',
@@ -32,10 +30,8 @@ export default {
       productos: []
     }
   },
-  mounted() {
-    recorridoJuguetes().then(productos => {
-      this.productos = productos
-    })
+  async mounted() {
+    this.productos = await obtenerProductosPorCategoria("juguetes");
   }
 
 }

@@ -8,6 +8,7 @@ import ZeeCatView from "../views/ZeeCatView.vue";
 import SnacksView from "../views/SnacksView.vue";
 import ArenasView from "../views/ArenasView.vue";
 import JuguetesView from "../views/JuguetesView.vue";
+import CarritoView from "../views/CarritoView.vue";
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path: "/juguetesView",
     name: "juguetesView",
     component: JuguetesView,
+  },
+  {
+    path: "/carritoView",
+    name: "carritoView",
+    component: CarritoView,
   },
 ];
 

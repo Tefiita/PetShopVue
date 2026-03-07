@@ -17,12 +17,12 @@
 
 
     <div>
-      <RouterLink id="botonCarrito" to="/carritoView" class="d-flex align-items-center gap-2 ms-3 px-3 py-1">
-        <i class="bi bi-basket" style="font-size: 1.1em; opacity: 0.8; margin-right: 4px;"></i>
+      <RouterLink  to="/carritoView" class="nav-link carrito-header d-flex align-items-center gap-2 ms-3 px-3 py-1">
+        <i class="carrito-header bi bi-basket"></i>
         <span>Carrito</span>
-        <span id="contadorCarrito">0</span>
+        <span id="contadorCarrito">{{ cantidadCarrito }}</span>
         <span class="mx-1">/</span>
-        <span id="totalCarritoHeader">$0</span>
+        <span >${{ totalCarrito.toLocaleString('es-CL') }}</span>
       </RouterLink>
     </div>
 
@@ -91,9 +91,24 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 export default {
   name: 'HeaderView',
+
+  computed: {
+    ...mapGetters(["cantidadCarrito", "totalCarrito"])
+  }
 
 }
 
 </script>
+
+<style scoped>
+.carrito-header {
+  font-size: 1.1em;
+  opacity: 0.8; 
+  margin-right: 4px;
+  color: #ffbd59;
+
+}
+</style>

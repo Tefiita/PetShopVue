@@ -1,16 +1,27 @@
 <template>
+  <div class="card h-100 text-center">
 
-  <div class="card">
-    <div class="card-img-hover-wrapper">
-      <img :src="imagenUrl" class="card-img-top card-img-main" :alt="nombreProducto" @error="imagenError" />
-      <!-- <img :src="imageUrl2" v-bind="imageUrl2" class="card-img-top card-img-hover" :alt="nombreProducto" @error="imagenError" /> -->
-    </div>
-    <div class="card-body d-flex flex-column">
-      <h5 class="card-title card-nombre"><strong>{{ nombreProducto }}</strong></h5>
-      <p class="card-text card-sabor">{{ sabor }}</p>
-      <p class="card-text card-precio"><strong>${{ precio.toLocaleString('es-CL') }}</strong>
+    <img :src="rutaImagen" class="card-img-top" :alt="producto.nombreProducto" @error="imagenError" />
+    <div class="card-body">
+      <h5 class="card-title"><strong>{{ producto.nombreProducto }}</strong>
+      </h5>
+      <p class="card-sabor card-text"> {{ producto.sabor }} </p>
+      <!-- BOTONES DE FORMATO -->
+      <div class="mb-2">
+        <button v-for="(variante, index) in producto.variantes" :key="variante.sku" class="btn btn-sm me-2"
+          :class="varianteSeleccionada === index ? 'btn-dark' : 'btn-outline-dark'" @click="seleccionarVariante(index)">
+          {{ variante.formato }}
+        </button>
+      </div>
+      <!-- PRECIO DINÁMICO -->
+      <p class="card-precio card-text fw-bold"><strong>
+          ${{ precioActual.toLocaleString('es-CL')}}</strong>
       </p>
-      <button class="btn btn-primary">Agregar al carrito</button>
+
+      <button class="btn btn-primary" @click="agregar">
+        Agregar al carrito
+      </button>
+
     </div>
 
   </div>
@@ -18,58 +29,61 @@
 
 <script>
 export default {
-  name: 'CardProductos',
+  name: "CardProductos",
+
   props: {
-    id: Number,
-    sabor: String,
-    nombreProducto: String,
-    precio: Number,
-    img: Number
+    producto: Object
   },
+
   data() {
     return {
-      imagenUrl: `/img/alimento-perro/${this.img}.png`,
-      imageUrl2: `/img/alimento-gato/poema/${this.imgf}.png`
+      varianteSeleccionada: 0,
+      rutaImagen: `/img/alimento-perro/${this.producto.img}.png`,
     }
   },
-  methods: {
-    imagenError() {
-      this.imagenUrl = '/img/favicon/noImage.jpg'
-    }
 
+  computed: {
+    precioActual() {
+      return this.producto.variantes[this.varianteSeleccionada].precio;
+    }
+  },
+
+  methods: {
+    seleccionarVariante(index) {
+      this.varianteSeleccionada = index;
+    },
+
+    imagenError() {
+      this.rutaImagen = '/img/favicon/noImage.jpg';
+    },
+
+    agregar() {
+      const variante = this.producto.variantes[this.varianteSeleccionada]
+
+      this.$store.commit("AGREGAR_AL_CARRITO", {
+        id: this.producto.id,
+        nombre: this.producto.nombreProducto,
+        img: this.producto.img,
+        sku: variante.sku,
+        formato: variante.formato,
+        precio: variante.precio
+      })
+    }
   }
 }
 </script>
 
 <style scoped>
-.card{
-  width: 306px;
-}
-
 .card-title {
-  font-size: 1rem;
+  font-size: 1.1rem
 }
 
-.card-text .card-sabor {
+.card-sabor {
   font-size: 0.95rem;
 }
 
-.card-text .card-precio {
+.card-precio {
   font-size: 1.25rem;
   color: #198754;
-}
-
-.card.text-center.mx-auto {
-  width: 18rem;
-}
-
-.card-title {
-  font-size: 0.95rem;
-}
-
-.container {
-  text-align: start;
-  justify-self: anchor-center;
-  align-self: anchor-center;
 }
 </style>
