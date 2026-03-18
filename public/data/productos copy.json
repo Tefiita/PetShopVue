@@ -1,0 +1,1494 @@
+[
+  {
+    "id": 1,
+    "nombreProducto": "Poema perro - cachorro/razas pequeñas y medianas",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "cachorro",
+    "tamañoMascota": "razas pequeña y mediana",
+    "sabor": "Pollo y Arroz",
+    "variantes": [
+      {
+        "sku": "poema-perro-cachorro-pollo-arroz-3kg",
+        "formato": "3 kg",
+        "precio": 20990
+      },
+      {
+        "sku": "poema-perro-cachorro-pollo-arroz-12kg",
+        "formato": "12 kg",
+        "precio": 57990
+      }
+    ],
+    "descripcion": "Producto desarrollado para todas las etapas de vida de tu mascota, destacando el hidrolizado de pollo de la zona central del país como ingrediente principal para asegurar alta palatabilidad, digestibilidad y biodisponibilidad de proteínas. Su fórmula balanceada, con cuidadosa selección de ingredientes, garantiza músculos sanos, huesos fuertes, pelaje brillante y aliento fresco para la óptima salud de tu mascota.",
+    "composicion": "Hidrolizado de pollo entero, vísceras de pollo, arroz entero, hidrolizado de salmón entero, avena, aceite estabilizado de pollo, almidón de mandioca, saccharomyces cerevisie (fuente de fructo - oligosacáridos y manano - oligosacáridos), salvado de arroz, linaza, cloruro de potasio, cloruro de sodio, vitamina A, vitamina D, vitamina E, vitamina K, tiamina, riboflavina, ácido pantoténico, niacina, vitamina B6, biotina, ácido fólico, vitamina B12, cloruro de colina, hierro, sulfato de manganeso, cobre, cobalto, zinc, yodo, selenio, extracto de yucca schidigera y quillay, vitamina C, saborizante natural, extracto de romero y tocoferoles mixtos.",
+    "analiticos": [
+      "Proteína Mín: 32,0%",
+      "Grasa Mín: 19,0%",
+      "Fibra bruta Máx: 3,0%",
+      "Cenizas Máx: 8,5%",
+      "Humedad Máx: 9%",
+      "Calcio Min/Máx: 1,0% - 1,4%",
+      "Fósforo Mín: 0,88% - 1.2%"
+    ],
+    "Extra": "",
+    "img": 1,
+    "img2": "1f"
+  },
+  {
+    "id": 2,
+    "nombreProducto": "Poema perro - cachorro/razas pequeñas y medianas",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "cachorro",
+    "tamañoMascota": "razas pequeña y mediana",
+    "sabor": "Salmón y Arroz",
+    "variantes": [
+      {
+        "sku": "poema-perro-cachorro-salmon-arroz-3kg",
+        "formato": "3 kg",
+        "precio": 20990
+      },
+      {
+        "sku": "poema-perro-cachorro-salmon-arroz-12kg",
+        "formato": "12 kg",
+        "precio": 57990
+      }
+    ],
+    "descripcion": "Producto hipoalergénico desarrollado para cada etapa de vida. El ingrediente principal es hidrolizado de salmón, proveniente desde el sur del país, el que contribuye de manera importante en la nutrición de su mascota y asegura una alta palatabilidad, una alta digestibilidad y una alta biodisponibilidad de proteínas garantizando la óptima salud de tu mascota. Adicionalmente, todos sus ingredientes han sido cuidadosamente seleccionados para lograr una fórmula balanceada que le entrega justo lo que tu mascota necesita para tener músculos sanos, huesos fuertes, pelaje brillante y un aliento sano.",
+    "composicion": "Hidrolizado de salmón entero, arroz entero, aceite de salmón y sardinas, avena, almidón de mandioca, saccharomyces cerevisie (fuente de fructo-oligosacáridos y manano-oligosacáridos), salvado de arroz, linaza, cloruro de potasio, cloruro de sodio, vitamina A, vitamina D, vitamina E, vitamina K, tiamina, riboflavina, ácido pantoténico, niacina, vitamina B6, biotina, ácido fólico, vitamina B12, cloruro de colina, hierro, sulfato de manganeso, cobre, cobalto, zinc, yodo, selenio, extracto de yuca schidigera y quillay, vitamina C, extracto de romero y tocoferoles mixtos saborizante natural. Adicionalmente, la línea Sénior contiene harina de langostino.",
+    "analiticos": [
+      "Proteína Mín: 33,0%",
+      "Grasa Mín: 17,0%",
+      "Fibra bruta Máx: 3,0%",
+      "Cenizas Máx: 7,0%",
+      "Humedad Máx: 9%",
+      "Calcio Min/Máx: 1,0% - 1,3%",
+      "Fósforo Mín: 0,8% - 1.2%"
+    ],
+    "Extra": "Hipoalergénico",
+    "img": 2,
+    "img2": "2f"
+  },
+  {
+    "id": 3,
+    "nombreProducto": "Poema perro - adulto/razas pequeñas y medianas",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "razas pequeña y mediana",
+    "sabor": "Pollo y Arroz",
+    "variantes": [
+      {
+        "sku": "poema-perro-adulto-pollo-arroz-3kg",
+        "formato": "3 kg",
+        "precio": 20990
+      },
+      {
+        "sku": "poema-perro-adulto-pollo-arroz-12kg",
+        "formato": "12 kg",
+        "precio": 57990
+      }
+    ],
+    "descripcion": "Producto desarrollado para todas las etapas de vida de tu mascota, destacando el hidrolizado de pollo de la zona central del país como ingrediente principal para asegurar alta palatabilidad, digestibilidad y biodisponibilidad de proteínas. Su fórmula balanceada, con cuidadosa selección de ingredientes, garantiza músculos sanos, huesos fuertes, pelaje brillante y aliento fresco para la óptima salud de tu mascota.",
+    "composicion": "Hidrolizado de pollo entero, vísceras de pollo, arroz entero, hidrolizado de salmón entero, avena, aceite estabilizado de pollo, almidón de mandioca, sacchromyces cerevisie (fuente de fructo - oligosacáridos y manano - oligosacáridos), salvado de arroz, linaza, cloruro de potasio, cloruro de sodio, vitamina A, vitamina D, vitamina E, vitamina K, tiamina, riboflavina, ácido pantoténico, niacina, vitamina B6, biotina, ácido fólico, vitamina B12, cloruro de colina, hierro, sulfato de manganeso, cobre, cobalto, zinc, yodo, selenio, extracto de yucxa schidigera y quillay, vitamina C, saborizante natural, extracto de romero y tocoferoles mixtos.",
+    "analiticos": [
+      "Proteína Mín: 30,0%",
+      "Grasa Mín: 17,0%",
+      "Fibra bruta Máx: 3,0%",
+      "Cenizas Máx: 8,5%",
+      "Humedad Máx: 9%",
+      "Calcio Min/Máx: 1,0% - 1,4%",
+      "Fósforo Mín: 0,9% - 1.2%"
+    ],
+    "Extra": "",
+    "img": 3,
+    "img2": "3f"
+  },
+  {
+    "id": 4,
+    "nombreProducto": "Poema perro - adulto/razas pequeñas y medianas",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "razas pequeña y mediana",
+    "sabor": "Salmón y Arroz",
+    "variantes": [
+      {
+        "sku": "poema-perro-adulto-salmon-arroz-3kg",
+        "formato": "3 kg",
+        "precio": 20990
+      },
+      {
+        "sku": "poema-perro-adulto-salmon-arroz-12kg",
+        "formato": "12 kg",
+        "precio": 57990
+      }
+    ],
+    "descripcion": "Producto hipoalergénico desarrollado para cada etapa de vida. El ingrediente principal es hidrolizado de salmón, proveniente desde el sur del país, el que contribuye de manera importante en la nutrición de su mascota y asegura una alta palatabilidad, una alta digestibilidad y una alta biodisponibilidad de proteínas garantizando la óptima salud de tu mascota. Adicionalmente, todos sus ingredientes han sido cuidadosamente seleccionados para lograr una fórmula balanceada que le entrega justo lo que tu mascota necesita para tener músculos sanos, huesos fuertes, pelaje brillante y un aliento sano.",
+    "composicion": "Hidrolizado de salmón entero, arroz entero, aceite de salmón y sardinas, avena, almidón de mandioca, saccharomyces cerevisie (fuente de fructo - oligosacáridos y manano - oligosacáridos), salvado de arroz, linaza, cloruro de potasio, cloruro de sodio, vitamina A, vitamina D, vitamina D, vitamina E, vitamina K, tiamina, riboflavina, ácido pantoténico, niacina, vitamina B6, biotina, ácido fólico, vitamina B12, cloruro de colina, hierro, sulfato de manganeso, cobre, cobalto, zinc, yodo, selenio, extracto de yucca schidigera y quillay, vitamina C, extracto de romero y tocoferoles mixtos, saborizante natural.",
+    "analiticos": [
+      "Proteína Mín: 30,0%",
+      "Grasa Mín: 15,0%",
+      "Fibra bruta Máx: 3,0%",
+      "Cenizas Máx: 7,0%",
+      "Humedad Máx: 9%",
+      "Calcio Min/Máx: 0,9% - 1,2%",
+      "Fósforo Mín: 0,88% - 1.1%"
+    ],
+    "Extra": "Hipoalergénico",
+    "img": 4,
+    "img2": "4f"
+  },
+  {
+    "id": 5,
+    "nombreProducto": "Poema perro - senior/razas pequeñas y medianas ",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "senior",
+    "tamañoMascota": "razas pequeña y mediana",
+    "sabor": "Pollo y arroz",
+    "variantes": [
+      {
+        "sku": "poema-perro-senior-pollo-arroz-3kg",
+        "formato": "3 kg",
+        "precio": 20990
+      },
+      {
+        "sku": "poema-perro-senior-pollo-arroz-12kg",
+        "formato": "12 kg",
+        "precio": 57990
+      }
+    ],
+    "descripcion": "Producto desarrollado para todas las etapas de vida de tu mascota, destacando el hidrolizado de pollo de la zona central del país como ingrediente principal para asegurar alta palatabilidad, digestibilidad y biodisponibilidad de proteínas. Su fórmula balanceada, con cuidadosa selección de ingredientes, garantiza músculos sanos, huesos fuertes, pelaje brillante y aliento fresco para la óptima salud de tu mascota.",
+    "composicion": "Hidrolizado de pollo entero, vísceras de pollo, arroz entero, hidrolizado de salmón entero, avena, aceite estabilizado de pollo, almidón de mandioca, saccharomyces cerevisie (fuente de fructo-oligosacáridos y manano-oligosacáridos), salvado de arroz, linaza, cloruro de potasio, cloruro de sodio, vitamina A, vitamina D, vitamina E, vitamina K, tiamina, riboflavina, ácido pantoténico, niacina, vitamina B6, biotina, ácido fólico, vitamina B12, cloruro de colina, hierro, sulfato de manganeso, cobre, cobalto, zinc, yodo, selenio, cloruro de colina, extracto de yuca schidigera y quillay, vitamina C, saborizante natural, extracto de romero y tocoferoles mixtos. Adicionalmente, la línea Sénior contiene harina de langostino.",
+    "analiticos": [
+      "Proteína Mín: 29,0%",
+      "Grasa Mín: 17,0%",
+      "Fibra bruta Máx: 3,0%",
+      "Cenizas Máx: 8,5%",
+      "Humedad Máx: 9%",
+      "Calcio Min/Máx: 1,0% - 1,3%",
+      "Fósforo Mín: 0,88% - 1.1%"
+    ],
+    "Extra": "",
+    "img": 5,
+    "img2": "5f"
+  },
+  {
+    "id": 6,
+    "nombreProducto": "Poema perro - senior/razas pequeñas y medianas ",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "senior",
+    "tamañoMascota": "razas pequeña y mediana",
+    "sabor": "Salmón y Arroz",
+    "variantes": [
+      {
+        "sku": "poema-perro-senior-salmon-arroz-3kg",
+        "formato": "3 kg",
+        "precio": 20990
+      },
+      {
+        "sku": "poema-perro-senior-salmon-arroz-12kg",
+        "formato": "12 kg",
+        "precio": 57990
+      }
+    ],
+    "descripcion": "Producto hipoalergénico desarrollado para cada etapa de vida. El ingrediente principal es hidrolizado de salmón, proveniente desde el sur del país, el que contribuye de manera importante en la nutrición de su mascota y asegura una alta palatabilidad, una alta digestibilidad y una alta biodisponibilidad de proteínas garantizando la óptima salud de tu mascota. Adicionalmente, todos sus ingredientes han sido cuidadosamente seleccionados para lograr una fórmula balanceada que le entrega justo lo que tu mascota necesita para tener músculos sanos, huesos fuertes, pelaje brillante y un aliento sano.",
+    "composicion": "Hidrolizado de salmón entero, arroz entero, aceite de salmón y sardinas, avena, almidón de mandioca, saccharomyces cerevisie (fuente de fructo-oligosacáridos y manano-oligosacáridos), salvado de arroz, linaza, cloruro de potasio, cloruro de sodio, vitamina A, vitamina D, vitamina E, vitamina K, tiamina, riboflavina, ácido pantoténico, niacina, vitamina B6, biotina, ácido fólico, vitamina B12, cloruro de colina, hierro, sulfato de manganeso, cobre, cobalto, zinc, yodo, selenio, extracto de yuca schidigera y quillay, vitamina C, extracto de romero y tocoferoles mixtos saborizante natural. Adicionalmente, la línea Sénior contiene harina de langostino.",
+    "analiticos": [
+      "Proteína Mín: 31,0%",
+      "Grasa Mín: 14,0%",
+      "Fibra bruta Máx: 3,0%",
+      "Cenizas Máx: 8,0%",
+      "Humedad Máx: 9%",
+      "Calcio Min/Máx: 0,9% - 1,3%",
+      "Fósforo Mín: 0,8% - 1.2%"
+    ],
+    "Extra": "Hipoalergénico",
+    "img": 6,
+    "img2": "6f",
+    "pag": "6.html"
+  },
+  {
+    "id": 7,
+    "nombreProducto": "Poema Patagónico - Todas las Edades",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "todas edades",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo, Salmón y Krill",
+    "variantes": [
+      {
+        "sku": "poema-patagónico-todas-edades-12kg",
+        "formato": "12 kg",
+        "precio": 47990
+      }
+    ],
+    "descripcion": "",
+    "composicion": "",
+    "analiticos": [],
+    "Extra": "",
+    "img": 7,
+    "img2": ""
+  },
+  {
+    "id": 8,
+    "nombreProducto": "Poema Patagónico - Todas las Edades",
+    "marca": "Poema",
+    "categoria": "alimento perro",
+    "especie": "Perro",
+    "edad": "todas edades",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo, Salmón y Krill",
+    "variantes": [
+      {
+        "sku": "poema-patagónico-todas-edades-20kg",
+        "formato": "20 kg" ,
+        "precio": 67990
+      }
+    ],
+    "descripcion": "",
+    "composicion": "",
+    "analiticos": [],
+    "Extra": "",
+    "img": 8,
+    "img2": ""
+  },
+  {
+    "id": 9,
+    "nombreProducto": "Bravery Cat Adult Chicken",
+    "marca": "Bravery",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo",
+    "variantes": [
+      {
+        "sku": "bravery-cat-adult-chicken-2kg",
+        "formato": "2 kg",
+        "precio": 15990
+      },
+      {
+        "sku": "bravery-cat-adult-chicken-7kg",
+        "formato": "7 kg",
+        "precio": 49990
+      }
+    ],
+    "descripcion": "Alimento premium para gatos adultos, libre de cereales, con pollo como ingrediente principal.",
+    "composicion": "Pollo deshidratado, grasa de pollo, guisantes, patatas, aceite de pescado, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 32%",
+      "Grasa Mín: 15%",
+      "Fibra Máx: 3%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Sin cereales",
+    "img": 9,
+    "img2": "9f"
+  },
+  {
+    "id": 10,
+    "nombreProducto": "Alfa Cat Kitten Salmon",
+    "marca": "Alfa Cat",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "cachorro",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Salmón",
+    "variantes": [
+      {
+        "sku": "alfa-cat-kitten-salmon-1kg",
+        "formato": "1 kg",
+        "precio": 10990
+      },
+      {
+        "sku": "alfa-cat-kitten-salmon-3kg",
+        "formato": "3 kg",
+        "precio": 24990
+      }
+    ],
+    "descripcion": "Alimento para gatitos, con salmón fresco y nutrientes esenciales para el crecimiento.",
+    "composicion": "Salmón fresco, arroz, aceite de pescado, vitaminas, minerales.",
+    "analiticos": [
+      "Proteína Mín: 34%",
+      "Grasa Mín: 16%",
+      "Fibra Máx: 2.5%",
+      "Cenizas Máx: 6%"
+    ],
+    "Extra": "Omega 3 y 6",
+    "img": 10,
+    "img2": "10f"
+  },
+  {
+    "id": 11,
+    "nombreProducto": "Oven Baked Cat Adult Duck",
+    "marca": "Oven Baked",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pato",
+    "variantes": [
+      {
+        "sku": "oven-baked-cat-adult-duck-2.27kg",
+        "formato": "2.27 kg",
+        "precio": 22990
+      }
+    ],
+    "descripcion": "Alimento horneado para gatos adultos, sabor pato, ingredientes naturales.",
+    "composicion": "Pato fresco, avena, cebada, aceite de coco, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 30%",
+      "Grasa Mín: 14%",
+      "Fibra Máx: 3%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 11,
+    "img2": "11f"
+  },
+  {
+    "id": 12,
+    "nombreProducto": "Bravery Cat Sterilized Fish",
+    "marca": "Bravery",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto esterilizado",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pescado",
+    "variantes": [
+      {
+        "sku": "bravery-cat-sterilized-fish-2kg",
+        "formato": "2 kg",
+        "precio": 16990
+      },
+      {
+        "sku": "bravery-cat-sterilized-fish-7kg",
+        "formato": "7 kg",
+        "precio": 51990
+      }
+    ],
+    "descripcion": "Alimento para gatos esterilizados, bajo en calorías, sabor pescado.",
+    "composicion": "Pescado deshidratado, guisantes, patatas, aceite de pescado, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 31%",
+      "Grasa Mín: 13%",
+      "Fibra Máx: 3.5%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Control de peso",
+    "img": 12,
+    "img2": "12f"
+  },
+  {
+    "id": 13,
+    "nombreProducto": "Alfa Cat Adult Beef",
+    "marca": "Alfa Cat",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Carne",
+    "variantes": [
+      {
+        "sku": "alfa-cat-adult-beef-2kg",
+        "formato": "2 kg",
+        "precio": 15990
+      },
+      {
+        "sku": "alfa-cat-adult-beef-7kg",
+        "formato": "7 kg",
+        "precio": 49990
+      }
+    ],
+    "descripcion": "Alimento para gatos adultos, sabor carne, con taurina y vitaminas.",
+    "composicion": "Carne fresca, arroz, aceite de pescado, taurina, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 32%",
+      "Grasa Mín: 15%",
+      "Fibra Máx: 3%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Con taurina",
+    "img": 13,
+    "img2": "13f"
+  },
+  {
+    "id": 14,
+    "nombreProducto": "Oven Baked Cat Kitten Chicken",
+    "marca": "Oven Baked",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "cachorro",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo",
+    "variantes": [
+      {
+        "sku": "oven-baked-cat-kitten-chicken-1.8kg",
+        "formato": "1.8 kg",
+        "precio": 11990
+      }
+    ],
+    "descripcion": "Alimento horneado para gatitos, sabor pollo, ingredientes naturales.",
+    "composicion": "Pollo fresco, avena, cebada, aceite de coco, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 33%",
+      "Grasa Mín: 16%",
+      "Fibra Máx: 2.5%",
+      "Cenizas Máx: 6%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 14,
+    "img2": "14f"
+  },
+  {
+    "id": 15,
+    "nombreProducto": "Bravery Cat Adult Lamb",
+    "marca": "Bravery",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Cordero",
+    "variantes": [
+      {
+        "sku": "bravery-cat-adult-lamb-2kg",
+        "formato": "2 kg",
+        "precio": 17990
+      },
+      {
+        "sku": "bravery-cat-adult-lamb-7kg",
+        "formato": "7 kg",
+        "precio": 52990
+      }
+    ],
+    "descripcion": "Alimento premium para gatos adultos, sabor cordero, libre de cereales.",
+    "composicion": "Cordero deshidratado, guisantes, patatas, aceite de pescado, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 32%",
+      "Grasa Mín: 15%",
+      "Fibra Máx: 3%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Sin cereales",
+    "img": 15,
+    "img2": "15f"
+  },
+  {
+    "id": 16,
+    "nombreProducto": "Alfa Cat Sterilized Chicken",
+    "marca": "Alfa Cat",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto esterilizado",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo",
+    "variantes": [
+      {
+        "sku": "alfa-cat-sterilized-chicken-2kg",
+        "formato": "2 kg",
+        "precio": 16990
+      },
+      {
+        "sku": "alfa-cat-sterilized-chicken-7kg",
+        "formato": "7 kg",
+        "precio": 51990
+      }
+    ],
+    "descripcion": "Alimento para gatos esterilizados, bajo en calorías, sabor pollo.",
+    "composicion": "Pollo deshidratado, guisantes, patatas, aceite de pescado, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 31%",
+      "Grasa Mín: 13%",
+      "Fibra Máx: 3.5%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Control de peso",
+    "img": 16,
+    "img2": "16f"
+  },
+  {
+    "id": 17,
+    "nombreProducto": "Oven Baked Cat Adult Fish",
+    "marca": "Oven Baked",
+    "categoria": "alimento gato",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pescado",
+    "variantes": [
+      {
+        "sku": "oven-baked-cat-adult-fish-2.27kg",
+        "formato": "2.27 kg",
+        "precio": 23990
+      }
+    ],
+    "descripcion": "Alimento horneado para gatos adultos, sabor pescado, ingredientes naturales.",
+    "composicion": "Pescado fresco, avena, cebada, aceite de coco, vitaminas y minerales.",
+    "analiticos": [
+      "Proteína Mín: 30%",
+      "Grasa Mín: 14%",
+      "Fibra Máx: 3%",
+      "Cenizas Máx: 7%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 17,
+    "img2": "17f"
+  },
+  {
+    "id": 18,
+    "nombreProducto": "Zee.Dog Snack Perro Chicken",
+    "marca": "Zee.Dog",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "zee-dog-snack-perro-chicken-0.15kg",
+        "formato": "15 gr",
+        "precio": 4990
+      }
+    ],
+    "sabor": "Pollo",
+    "descripcion": "Snack natural para perros, sabor pollo, ideal para entrenamiento.",
+    "composicion": "Pollo deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 25%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin colorantes",
+    "img": 18,
+    "img2": "18f"
+  },
+  {
+    "id": 19,
+    "nombreProducto": "Zee.Cat Snack Gato Tuna",
+    "marca": "Zee.Cat",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Atún",
+    "variantes": [
+      {
+        "sku": "zee-cat-snack-gato-tuna-0.08kg",
+        "formato": "8 gr",
+        "precio": 3990
+      }
+    ],
+    "descripcion": "Snack natural para gatos, sabor atún, ideal para premiar.",
+    "composicion": "Atún deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 28%",
+      "Grasa Mín: 7%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin colorantes",
+    "img": 19,
+    "img2": "19f"
+  },
+  {
+    "id": 20,
+    "nombreProducto": "Oven Baked Snack Perro Beef",
+    "marca": "Oven Baked",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Carne",
+    "variantes": [
+      {
+        "sku": "oven-baked-snack-perro-beef-0.15kg",
+        "formato": "15 gr",
+        "precio": 4990
+      }
+    ],
+    "descripcion": "Snack horneado para perros, sabor carne, ingredientes naturales.",
+    "composicion": "Carne fresca, avena, aceite de coco, minerales.",
+    "analiticos": [
+      "Proteína Mín: 24%",
+      "Grasa Mín: 9%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 20,
+    "img2": "20f"
+  },
+  {
+    "id": 21,
+    "nombreProducto": "Oven Baked Snack Gato Chicken",
+    "marca": "Oven Baked",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo",
+    "variantes": [
+      {
+        "sku": "oven-baked-snack-gato-chicken-0.08kg",
+        "formato": "8 gr",
+        "precio": 3990
+      }
+    ],
+    "descripcion": "Snack horneado para gatos, sabor pollo, ingredientes naturales.",
+    "composicion": "Pollo fresco, avena, aceite de coco, minerales.",
+    "analiticos": [
+      "Proteína Mín: 27%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 21,
+    "img2": "21f"
+  },
+  {
+    "id": 22,
+    "nombreProducto": "Bravery Snack Perro Lamb",
+    "marca": "Bravery",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Cordero",
+    "variantes": [
+      {
+        "sku": "bravery-snack-perro-lamb-0.15kg",
+        "formato": "15 gr",
+        "precio": 5290
+      }
+    ],
+    "descripcion": "Snack premium para perros, sabor cordero, sin cereales.",
+    "composicion": "Cordero deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 26%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin cereales",
+    "img": 22,
+    "img2": "22f"
+  },
+  {
+    "id": 23,
+    "nombreProducto": "Bravery Snack Gato Duck",
+    "marca": "Bravery",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pato",
+    "variantes": [
+      {
+        "sku": "bravery-snack-gato-duck-0.08kg",
+        "formato": "8 gr",
+        "precio": 4290
+      }
+    ],
+    "precio": [4290],
+    "descripcion": "Snack premium para gatos, sabor pato, sin cereales.",
+    "composicion": "Pato deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 29%",
+      "Grasa Mín: 7%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin cereales",
+    "img": 23,
+    "img2": "23f"
+  },
+  {
+    "id": 24,
+    "nombreProducto": "Alfa Cat Snack Gato Salmon",
+    "marca": "Alfa Cat",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Salmón",
+    "variantes": [
+      {
+        "sku": "alfa-cat-snack-gato-salmon-0.08kg",
+        "formato": "8 gr",
+        "precio": 3990
+      }
+    ],
+    "descripcion": "Snack para gatos, sabor salmón, con omega 3 y 6.",
+    "composicion": "Salmón deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 28%",
+      "Grasa Mín: 7%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Omega 3 y 6",
+    "img": 24,
+    "img2": "24f"
+  },
+  {
+    "id": 25,
+    "nombreProducto": "Alfa Cat Snack Perro Beef",
+    "marca": "Alfa Cat",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Carne",
+    "variantes": [
+      {
+        "sku": "alfa-cat-snack-perro-beef-0.15kg",
+        "formato": "15 gr",
+        "precio": 4990
+      }
+    ],
+    "descripcion": "Snack para perros, sabor carne, con taurina.",
+    "composicion": "Carne deshidratada, glicerina, taurina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 25%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Con taurina",
+    "img": 25,
+    "img2": "25f"
+  },
+  {
+    "id": 26,
+    "nombreProducto": "Zee.Dog Snack Perro Salmon",
+    "marca": "Zee.Dog",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Salmón",
+    "variantes": [
+      {
+        "sku": "zee-dog-snack-perro-salmon-0.15kg",
+        "formato": "15 gr",
+        "precio": 4990
+      }
+    ],
+    "descripcion": "Snack natural para perros, sabor salmón, ideal para entrenamiento.",
+    "composicion": "Salmón deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 25%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin colorantes",
+    "img": 26,
+    "img2": "26f"
+  },
+  {
+    "id": 27,
+    "nombreProducto": "Zee.Cat Snack Gato Chicken",
+    "marca": "Zee.Cat",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo",
+    "variantes": [
+      {
+        "sku": "zee-cat-snack-gato-chicken-0.08kg",
+        "formato": "8 gr",
+        "precio": 3990
+      }
+    ],
+
+    "precio": [3990],
+    "descripcion": "Snack natural para gatos, sabor pollo, ideal para premiar.",
+    "composicion": "Pollo deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 28%",
+      "Grasa Mín: 7%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin colorantes",
+    "img": 27,
+    "img2": "27f"
+  },
+  {
+    "id": 28,
+    "nombreProducto": "Oven Baked Snack Perro Salmon",
+    "marca": "Oven Baked",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Salmón",
+    "variantes": [
+      {
+        "sku": "oven-baked-snack-perro-salmon-0.15kg",
+        "formato": "15 gr",
+        "precio": 4990
+      }
+    ],
+    "descripcion": "Snack horneado para perros, sabor salmón, ingredientes naturales.",
+    "composicion": "Salmón fresco, avena, aceite de coco, minerales.",
+    "analiticos": [
+      "Proteína Mín: 24%",
+      "Grasa Mín: 9%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 28,
+    "img2": "28f"
+  },
+  {
+    "id": 29,
+    "nombreProducto": "Oven Baked Snack Gato Beef",
+    "marca": "Oven Baked",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Carne",
+    "variantes": [
+      {
+        "sku": "oven-baked-snack-gato-beef-0.08kg",
+        "formato": "8 gr",
+        "precio": 3990
+      }
+    ],
+    "descripcion": "Snack horneado para gatos, sabor carne, ingredientes naturales.",
+    "composicion": "Carne fresca, avena, aceite de coco, minerales.",
+    "analiticos": [
+      "Proteína Mín: 27%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Horneado lento",
+    "img": 29,
+    "img2": "29f"
+  },
+  {
+    "id": 30,
+    "nombreProducto": "Bravery Snack Perro Fish",
+    "marca": "Bravery",
+    "categoria": "snacks",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pescado",
+    "variantes": [
+      {
+        "sku": "bravery-snack-perro-fish-0.15kg",
+        "formato": "15 gr",
+        "precio": 5290
+      }
+    ],
+    "descripcion": "Snack premium para perros, sabor pescado, sin cereales.",
+    "composicion": "Pescado deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 26%",
+      "Grasa Mín: 8%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin cereales",
+    "img": 30,
+    "img2": "30f"
+  },
+  {
+    "id": 31,
+    "nombreProducto": "Bravery Snack Gato Chicken",
+    "marca": "Bravery",
+    "categoria": "snacks",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "sabor": "Pollo",
+    "variantes": [
+      {
+        "sku": "bravery-snack-gato-chicken-0.08kg",
+        "formato": "8 gr",
+        "precio": 4290
+      }
+    ],
+    "descripcion": "Snack premium para gatos, sabor pollo, sin cereales.",
+    "composicion": "Pollo deshidratado, glicerina, minerales.",
+    "analiticos": [
+      "Proteína Mín: 29%",
+      "Grasa Mín: 7%",
+      "Fibra Máx: 2%",
+      "Cenizas Máx: 5%"
+    ],
+    "Extra": "Sin cereales",
+    "img": 31,
+    "img2": "31f"
+  },
+  {
+    "id": 32,
+    "nombreProducto": "Zee.Dog Collar Urban",
+    "marca": "Zee.Dog",
+    "categoria": "accesorios zee.dog",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "mediana",
+    "variantes": [
+      {
+        "sku": "zee-dog-collar-urban-m",
+        "formato": "M",
+        "precio": 13990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Collar para perro Zee.Dog Urban, resistente y cómodo.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Ajustable",
+    "img": 32,
+    "img2": "32f"
+  },
+  {
+    "id": 33,
+    "nombreProducto": "Zee.Dog Correa Neon",
+    "marca": "Zee.Dog",
+    "categoria": "accesorios zee.dog",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "grande",
+    "variantes": [
+      {
+        "sku": "zee-dog-correa-neon-l",
+        "formato": "L",
+        "precio": 17990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Correa para perro Zee.Dog Neon, alta visibilidad.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Reflectante",
+    "img": 33,
+    "img2": "33f"
+  },
+  {
+    "id": 34,
+    "nombreProducto": "Zee.Dog Pechera Phantom",
+    "marca": "Zee.Dog",
+    "categoria": "accesorios zee.dog",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "mediana",
+    "variantes": [
+      {
+        "sku": "zee-dog-pechera-phantom-m",
+        "formato": "M",
+        "precio": 19990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Pechera para perro Zee.Dog Phantom, diseño ergonómico.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Ergonómica",
+    "img": 34,
+    "img2": "34f"
+  },
+  {
+    "id": 35,
+    "nombreProducto": "Zee.Cat Collar Sushi",
+    "marca": "Zee.Cat",
+    "categoria": "accesorios zee.dog",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "zee-cat-collar-sushi-único",
+        "formato": "Único",
+        "precio": 9990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Collar para gato Zee.Cat Sushi, seguro y ajustable.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Ajustable",
+    "img": 35,
+    "img2": "35f"
+  },
+  {
+    "id": 36,
+    "nombreProducto": "Zee.Cat Correa Rainbow",
+    "marca": "Zee.Cat",
+    "categoria": "accesorios zee.dog",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "zee-cat-correa-rainbow-único",
+        "formato": "Único",
+        "precio": 11990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Correa para gato Zee.Cat Rainbow, colorida y resistente.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Colorida",
+    "img": 36,
+    "img2": "36f"
+  },
+  {
+    "id": 37,
+    "nombreProducto": "Zee.Dog Collar Skull",
+    "marca": "Zee.Dog",
+    "categoria": "accesorios zee.dog",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "pequeña",
+    "variantes": [
+      {
+        "sku": "zee-dog-collar-skull-s",
+        "formato": "S",
+        "precio": 12990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Collar para perro Zee.Dog Skull, diseño original.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Original",
+    "img": 37,
+    "img2": "37f"
+  },
+  {
+    "id": 38,
+    "nombreProducto": "Zee.Cat Pechera Sushi",
+    "marca": "Zee.Cat",
+    "categoria": "accesorios zee.dog",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "zee-cat-pechera-sushi-único",
+        "formato": "Único",
+        "precio": 14990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Pechera para gato Zee.Cat Sushi, cómoda y segura.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Cómoda",
+    "img": 38,
+    "img2": "38f"
+  },
+  {
+    "id": 39,
+    "nombreProducto": "Zee.Dog Correa Phantom",
+    "marca": "Zee.Dog",
+    "categoria": "accesorios zee.dog",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "grande",
+    "variantes": [
+      {
+        "sku": "zee-dog-correa-phantom-l",
+        "formato": "L",
+        "precio": 17990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Correa para perro Zee.Dog Phantom, resistente y ergonómica.",
+    "composicion": "Poliéster, plástico, metal.",
+    "analiticos": [],
+    "Extra": "Ergonómica",
+    "img": 39,
+    "img2": "39f"
+  },
+  {
+    "id": 40,
+    "nombreProducto": "Arena Sanicat Clumping",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-clumping-7",
+        "formato": "7 kg",
+        "precio": 8990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena aglomerante Sanicat, control de olores y fácil limpieza.",
+    "composicion": "Bentonita, fragancia.",
+    "analiticos": [],
+    "Extra": "Aglomerante",
+    "img": 40,
+    "img2": "40f"
+  },
+  {
+    "id": 41,
+    "nombreProducto": "Arena Sanicat Aloe Vera",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-aloe-vera-7",
+        "formato": "7 kg",
+        "precio": 9990
+      }
+    ],
+    "sabor": "Aloe Vera",
+    "descripcion": "Arena Sanicat con aroma a aloe vera, suave y control de olores.",
+    "composicion": "Bentonita, fragancia aloe vera.",
+    "analiticos": [],
+    "Extra": "Aroma natural",
+    "img": 41,
+    "img2": "41f"
+  },
+  {
+    "id": 42,
+    "nombreProducto": "Arena Sanicat Sensitive",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-sensitive-7",
+        "formato": "7 kg",
+        "precio": 8990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena Sanicat Sensitive, sin fragancia, ideal para gatos sensibles.",
+    "composicion": "Bentonita.",
+    "analiticos": [],
+    "Extra": "Sin fragancia",
+    "img": 42,
+    "img2": "42f"
+  },
+  {
+    "id": 43,
+    "nombreProducto": "Arena Sanicat Light",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-light-7",
+        "formato": "7 kg",
+        "precio": 8990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena Sanicat Light, ligera y fácil de manipular.",
+    "composicion": "Bentonita ligera.",
+    "analiticos": [],
+    "Extra": "Ligera",
+    "img": 43,
+    "img2": "43f"
+  },
+  {
+    "id": 44,
+    "nombreProducto": "Arena Sanicat Odor Control",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-odor-control-7",
+        "formato": "7 kg",
+        "precio": 9990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena Sanicat Odor Control, máxima absorción y control de olores.",
+    "composicion": "Bentonita, fragancia.",
+    "analiticos": [],
+    "Extra": "Control de olores",
+    "img": 44,
+    "img2": "44f"
+  },
+  {
+    "id": 45,
+    "nombreProducto": "Arena Sanicat Multi Cat",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-multi-cat-7",
+        "formato": "7 kg",
+        "precio": 10990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena Sanicat Multi Cat, especial para hogares con varios gatos.",
+    "composicion": "Bentonita, fragancia.",
+    "analiticos": [],
+    "Extra": "Multi gato",
+    "img": 45,
+    "img2": "45f"
+  },
+  {
+    "id": 46,
+    "nombreProducto": "Arena Sanicat Eco",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-eco-7",
+        "formato": "7 kg",
+        "precio": 8990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena Sanicat Eco, biodegradable y ecológica.",
+    "composicion": "Bentonita ecológica.",
+    "analiticos": [],
+    "Extra": "Biodegradable",
+    "img": 46,
+    "img2": "46f"
+  },
+  {
+    "id": 47,
+    "nombreProducto": "Arena Sanicat Classic",
+    "marca": "Sanicat",
+    "categoria": "arenas",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "arena-sanicat-classic-7",
+        "formato": "7 kg",
+        "precio": 8990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Arena Sanicat Classic, absorción rápida y control de olores.",
+    "composicion": "Bentonita.",
+    "analiticos": [],
+    "Extra": "Clásica",
+    "img": 47,
+    "img2": "47f"
+  },
+  {
+    "id": 48,
+    "nombreProducto": "Juguete Kong Classic",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "mediana",
+    "variantes": [
+      {
+        "sku": "juguete-kong-classic-m",
+        "formato": "M",
+        "precio": 11990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Classic, resistente y rellenable.",
+    "composicion": "Caucho natural.",
+    "analiticos": [],
+    "Extra": "Rellenable",
+    "img": 48,
+    "img2": "48f"
+  },
+  {
+    "id": 49,
+    "nombreProducto": "Juguete Kong Extreme",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "grande",
+    "variantes": [
+      {
+        "sku": "juguete-kong-extreme-l",
+        "formato": "L",
+        "precio": 13990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Extreme, ultra resistente para perros grandes.",
+    "composicion": "Caucho natural.",
+    "analiticos": [],
+    "Extra": "Ultra resistente",
+    "img": 49,
+    "img2": "49f"
+  },
+  {
+    "id": 50,
+    "nombreProducto": "Juguete Kong Catnip",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "juguete-kong-catnip-único",
+        "formato": "Único",
+        "precio": 5990
+      }
+    ],
+    "sabor": "Catnip",
+    "descripcion": "Juguete Kong Catnip, relleno de catnip para gatos.",
+    "composicion": "Tela, catnip.",
+    "analiticos": [],
+    "Extra": "Catnip",
+    "img": 50,
+    "img2": "50f"
+  },
+  {
+    "id": 51,
+    "nombreProducto": "Juguete Kong Wubba",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "mediana",
+    "variantes": [
+      {
+        "sku": "juguete-kong-wubba-m",
+        "formato": "M",
+        "precio": 10990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Wubba, ideal para lanzar y morder.",
+    "composicion": "Tela, caucho.",
+    "analiticos": [],
+    "Extra": "Lanzable",
+    "img": 51,
+    "img2": "51f"
+  },
+  {
+    "id": 52,
+    "nombreProducto": "Juguete Kong Feather",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "juguete-kong-feather-único",
+        "formato": "Único",
+        "precio": 4990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Feather, plumas para estimular el juego del gato.",
+    "composicion": "Tela, plumas.",
+    "analiticos": [],
+    "Extra": "Plumas",
+    "img": 52,
+    "img2": "52f"
+  },
+  {
+    "id": 53,
+    "nombreProducto": "Juguete Kong Puppy",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Perro",
+    "edad": "cachorro",
+    "tamañoMascota": "pequeña",
+    "variantes": [
+      {
+        "sku": "juguete-kong-puppy-s",
+        "formato": "S",
+        "precio": 8990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Puppy, suave para cachorros.",
+    "composicion": "Caucho natural.",
+    "analiticos": [],
+    "Extra": "Suave",
+    "img": 53,
+    "img2": "53f"
+  },
+  {
+    "id": 54,
+    "nombreProducto": "Juguete Kong Ball",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Perro",
+    "edad": "adulto",
+    "tamañoMascota": "mediana",
+    "variantes": [
+      {
+        "sku": "juguete-kong-ball-m",
+        "formato": "M",
+        "precio": 7990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Ball, pelota resistente para perros.",
+    "composicion": "Caucho natural.",
+    "analiticos": [],
+    "Extra": "Pelota",
+    "img": 54,
+    "img2": "54f"
+  },
+  {
+    "id": 55,
+    "nombreProducto": "Juguete Kong Cat Feather",
+    "marca": "Kong",
+    "categoria": "juguetes",
+    "especie": "Gato",
+    "edad": "adulto",
+    "tamañoMascota": "todas las razas",
+    "variantes": [
+      {
+        "sku": "juguete-kong-cat-feather-único",
+        "formato": "Único",
+        "precio": 4990
+      }
+    ],
+    "sabor": "",
+    "descripcion": "Juguete Kong Cat Feather, plumas para estimular el juego del gato.",
+    "composicion": "Tela, plumas.",
+    "analiticos": [],
+    "Extra": "Plumas",
+    "img": 55,
+    "img2": "55f"
+  }
+]

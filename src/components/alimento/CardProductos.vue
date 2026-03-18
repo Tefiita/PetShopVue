@@ -1,36 +1,36 @@
 <template>
   <div class="card h-100 text-center">
-
     <img :src="rutaImagen" class="card-img-top" :alt="producto.nombreProducto" @error="imagenError" />
     <div class="card-body">
-      <h5 class="card-title"><strong>{{ producto.nombreProducto }}</strong>
-      </h5>
+      <h5 class="card-title"><strong>{{ producto.nombreProducto }}</strong></h5>
       <p class="card-sabor card-text"> {{ producto.sabor }} </p>
       <!-- BOTONES DE FORMATO -->
       <div class="mb-2">
-        <button v-for="(variante, index) in producto.variantes" :key="variante.sku" class="btn btn-sm me-2"
-          :class="varianteSeleccionada === index ? 'btn-dark' : 'btn-outline-dark'" @click="seleccionarVariante(index)">
-          {{ variante.formato }}
-        </button>
+        <BotonSelector v-model="varianteSeleccionada" :variantes="producto.variantes" />
       </div>
       <!-- PRECIO DINÁMICO -->
       <p class="card-precio card-text fw-bold"><strong>
-          ${{ precioActual.toLocaleString('es-CL')}}</strong>
+          ${{ precioActual.toLocaleString('es-CL') }}</strong>
       </p>
-
-      <button class="btn btn-primary" @click="agregar">
-        Agregar al carrito
-      </button>
-
+      <div class="d-grid gap-2 mb-3">
+        <BotonVerMas :id="producto.id" />
+      </div>
+      <BotonAgregarCarrito :producto="producto" :variante="producto.variantes[varianteSeleccionada]" />
     </div>
-
   </div>
 </template>
 
 <script>
+import BotonAgregarCarrito from "../BotonAgregarCarrito.vue"
+import BotonSelector from "../BotonSelector.vue"
+import BotonVerMas from "../BotonVerMas.vue"
 export default {
   name: "CardProductos",
-
+  components: {
+    BotonAgregarCarrito,
+    BotonSelector,
+    BotonVerMas
+  },
   props: {
     producto: Object
   },
@@ -49,6 +49,10 @@ export default {
   },
 
   methods: {
+    verDetalle(id) {
+      this.$router.push(`/producto/${id}`);
+    },
+
     seleccionarVariante(index) {
       this.varianteSeleccionada = index;
     },

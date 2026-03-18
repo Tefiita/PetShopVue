@@ -30,10 +30,8 @@
             <h5 class="card-title">Nuestra Visión</h5>
             <p id="vision" class="card-text">
               Ser reconocidos como la tienda líder en productos y servicios
-              para
-              mascotas en Chillán, destacándonos por nuestra dedicación al bienestar animal,
-              innovación y
-              compromiso con la comunidad. Aspiramos a ser un referente
+              para mascotas en Chillán, destacándonos por nuestra dedicación al bienestar animal,
+              innovación y compromiso con la comunidad. Aspiramos a ser un referente
               en educación y cuidado responsable de mascotas, promoviendo relaciones
               saludables y felices entre las mascotas y sus tutores.
             </p>
@@ -95,7 +93,56 @@
 </template>
 
 <script>
+import L from "leaflet"
+import "leaflet/dist/leaflet.css"
+
+import markerIcon from "leaflet/dist/images/marker-icon.png"
+import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png"
+import markerShadow from "leaflet/dist/images/marker-shadow.png"
+
+delete L.Icon.Default.prototype._getIconUrl
+
+L.Icon.Default.mergeOptions({
+  iconUrl: markerIcon,
+  iconRetinaUrl: markerIcon2x,
+  shadowUrl: markerShadow,
+})
+
 export default {
-  name: 'NosotrosView'
+  name: "NosotrosView",
+
+  mounted() {
+
+    const direccion = "Schleyer 225, Chillán, Chile"
+
+    fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(direccion)}`)
+      .then(res => res.json())
+      .then(data => {
+
+        const lat = data[0].lat
+        const lon = data[0].lon
+
+        const map = L.map("map").setView([lat, lon], 15)
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: "© OpenStreetMap contributors"
+        }).addTo(map)
+
+        L.marker([lat, lon])
+          .addTo(map)
+          .bindPopup(direccion)
+          .openPopup()
+
+      })
+
+  }
 }
 </script>
+
+<style scoped>
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+</style>

@@ -7,8 +7,8 @@
         <div class="col-lg-4 col-md-6">
           <img src="/img/favicon/golpetFavicon.ico" alt="GolPet Logo" height="46" class="mb-3">
           <p class="footer-desc">
-            GolPet es una tienda especializada en alimentos
-            <strong>premium y super premium</strong> y accesorios de
+            Gol Pet es una tienda especializada en alimentos
+            <strong>premium, súper premium</strong> y accesorios de
             marcas seleccionadas para el bienestar real de perros y gatos.
           </p>
         </div>
@@ -29,9 +29,9 @@
           <h6 class="footer-title">Marcas destacadas</h6>
           <ul class="footer-links">
             <li>Zee.Dog</li>
-            <li>KTOP9</li>
-            <li>Brit Care</li>
-            <li>Orijen</li>
+            <li>Catit</li>
+            <li>Oven-Baked Tradition</li>
+            <li>Poema</li>
           </ul>
         </div>
 

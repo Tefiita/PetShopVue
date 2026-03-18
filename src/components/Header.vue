@@ -17,12 +17,12 @@
 
 
     <div>
-      <RouterLink  to="/carritoView" class="nav-link carrito-header d-flex align-items-center gap-2 ms-3 px-3 py-1">
+      <RouterLink to="/carritoView" class="nav-link carrito-header d-flex align-items-center gap-2 ms-3 px-3 py-1">
         <i class="carrito-header bi bi-basket"></i>
         <span>Carrito</span>
         <span id="contadorCarrito">{{ cantidadCarrito }}</span>
         <span class="mx-1">/</span>
-        <span >${{ totalCarrito.toLocaleString('es-CL') }}</span>
+        <span>${{ totalCarrito.toLocaleString('es-CL') }}</span>
       </RouterLink>
     </div>
 
@@ -82,9 +82,12 @@
           <RouterLink class="nav-link" to="/nosotrosView">Sobre Nosotros</RouterLink>
         </li>
       </ul>
-      <form class="d-flex me-3" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search" />
-        <button id="botonBuscar" class="btn btn-outline-success" type="submit">Buscar</button>
+      <form class="d-flex" @submit.prevent="buscar">
+        <input class="form-control me-2" type="search" placeholder="Buscar productos" v-model="busqueda">
+
+        <button class="btn btn-outline-success" type="submit">
+          Buscar
+        </button>
       </form>
     </div>
   </nav>
@@ -97,6 +100,17 @@ export default {
 
   computed: {
     ...mapGetters(["cantidadCarrito", "totalCarrito"])
+  },
+  data(){
+    return {
+      busqueda: ""
+    }
+  },
+  methods:{
+    buscar(){
+      if(!this.busqueda.trim()) return;
+      this.$router.push({ name: "searchView", query: { q: this.busqueda } });
+    }
   }
 
 }
@@ -106,7 +120,7 @@ export default {
 <style scoped>
 .carrito-header {
   font-size: 1.1em;
-  opacity: 0.8; 
+  opacity: 0.8;
   margin-right: 4px;
   color: #ffbd59;
 

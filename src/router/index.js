@@ -9,6 +9,8 @@ import SnacksView from "../views/SnacksView.vue";
 import ArenasView from "../views/ArenasView.vue";
 import JuguetesView from "../views/JuguetesView.vue";
 import CarritoView from "../views/CarritoView.vue";
+import SearchView from "../views/SearchView.vue";
+import ProductoIndividualView from "../views/ProductoIndividualView.vue";
 
 const routes = [
   {
@@ -61,6 +63,17 @@ const routes = [
     name: "carritoView",
     component: CarritoView,
   },
+  {
+    path: "/searchView",
+    name: "searchView",
+    component: SearchView,
+  },
+  {
+    path: "/producto/:id",
+    name: "productoIndividualView",
+    component: ProductoIndividualView,
+
+  }
 ];
 
 const router = createRouter({

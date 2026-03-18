@@ -11,7 +11,7 @@
     <div v-for="item in $store.state.carrito" :key="item.sku" class="card mb-3">
 
       <div class="card-body d-flex justify-content-between align-items-center">
-        <img :src="`/img/alimento-perro/${item.img}.png`" :alt="item.nombre" class="img mb-2 card" >
+        <img :src="`/img/alimento-perro/${item.img}.png`" :alt="item.nombre" class="img mb-2 card">
         <div>
 
           <h5>{{ item.nombre }}</h5>
@@ -36,18 +36,35 @@
 
     </div>
 
-    <h3 class="text-end">
+    <h3 class="text-end" v-show ="$store.state.carrito.length > 0">
       Total: ${{ $store.getters.totalCarrito.toLocaleString('es-CL') }}
     </h3>
-
+    <div class="d-flex justify-content-end align-items-center gap-3 mb-4 ">
+      <BotonFinalizarCompra @abrirCheckout="abrirModal" v-show="$store.state.carrito.length > 0" />
+      <CheckoutModal :carrito="$store.state.carrito" />
+    </div>
   </div>
+
 
 </template>
 
 <script>
-export default {
+import BotonFinalizarCompra from "../components/compra/BotonFinalizarCompra.vue"
+import CheckoutModal from "../components/compra/CheckoutModal.vue"
+import { Modal } from "bootstrap"
 
+export default {
   name: 'CarritoView',
+  components: {
+    BotonFinalizarCompra,
+    CheckoutModal
+  },
+
+  computed: {
+    carrito() {
+      return this.$store.state.carrito
+    }
+  },
 
   methods: {
     aumentar(sku) {
@@ -60,6 +77,11 @@ export default {
 
     eliminar(sku) {
       this.$store.commit("ELIMINAR_PRODUCTO", sku)
+    },
+
+    abrirModal() {
+      const modal = new Modal(document.getElementById("checkoutModal"))
+      modal.show()
     }
   }
 }
